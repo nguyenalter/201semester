@@ -156,4 +156,7 @@ def assign(file_input, file_output):
 
     return
 
-assign('input.txt', 'output.txt')
+// Run 25 testcase
+for i in range(25):
+    index = i + 1
+    assign('input/' + index + '.txt', 'output/' + index + '.txt')
